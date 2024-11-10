@@ -32,7 +32,7 @@ body {
 
 button {
     width: 70%;
-    background-color: #4CAF50; /* Couleur de fond verte */
+    background-color: #1b87e6; /* Couleur de fond verte */
     color: white; /* Texte blanc */
     border: none; /* Pas de bordure */
     padding: 10px 20px 10px 20px ; /* Espacement intérieur */
@@ -46,7 +46,7 @@ button {
   }
 
 button:hover {
-    background-color: #2b9530; /* Couleur de fond légèrement plus sombre au survol */
+    background-color: #1b87e6; /* Couleur de fond légèrement plus sombre au survol */
     transform: scale(1.05); /* Agrandissement léger au survol */
 }
 
