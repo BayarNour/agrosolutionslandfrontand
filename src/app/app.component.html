@@ -21,12 +21,16 @@
                 <div data-mdb-input-init class="form-outline flex-fill mb-0">
                   <label class="form-label">Nitrogen</label>
                   <input
-                    type="number"
-                    name="name"
+                    type="range"
+                    min="10"
+                    max="30"
+                    step="0.1"
+                    name="Nitrogen"
                     formControlName="Nitrogen"
                     class="form-control"
-                    placeholder="Enter Nitrogen"
+                    oninput="this.nextElementSibling.value = this.value"
                   />
+                  <output>10</output>
                 </div>
               </div>
               <div class="d-flex flex-row align-items-center mb-4">
@@ -34,11 +38,15 @@
                 <div data-mdb-input-init class="form-outline flex-fill mb-0">
                   <label class="form-label">Potassium</label>
                   <input
-                    type="number"
+                    type="range"
+                    min="100"
+                    max="250"
+                    step="0.1"
                     name="Potassium"
                     class="form-control"
-                    placeholder="Enter Potassium"
+                    oninput="this.nextElementSibling.value = this.value"
                   />
+                  <output>100</output>
                 </div>
               </div>
 
@@ -47,11 +55,15 @@
                 <div data-mdb-input-init class="form-outline flex-fill mb-0">
                   <label class="form-label">Phosphorus</label>
                   <input
-                    type="number"
+                    type="range"
+                    min="15"
+                    max="50"
+                    step="0.1"
                     name="Phosphorus"
                     class="form-control"
-                    placeholder="Enter Phosphorus"
+                    oninput="this.nextElementSibling.value = this.value"
                   />
+                  <output>15</output>
                 </div>
               </div>
               <div class="d-flex flex-row align-items-center mb-4">
@@ -59,11 +71,15 @@
                 <div data-mdb-input-init class="form-outline flex-fill mb-0">
                   <label class="form-label">Temperature</label>
                   <input
-                    type="number"
+                    type="range"
+                    min="20"
+                    max="30"
+                    step="0.1"
                     name="temperature"
                     class="form-control"
-                    placeholder="Enter temperature"
+                    oninput="this.nextElementSibling.value = this.value"
                   />
+                  <output>20</output>
                 </div>
               </div>
             </form>
@@ -81,14 +97,16 @@
                 <div data-mdb-input-init class="form-outline flex-fill mb-0">
                   <label class="form-label">Humidity</label>
                   <input
-                    type="number"
-                    min="0"
-                    max="100"
+                    type="range"
+                    min="50"
+                    max="70"
+                    step="0.1"
                     name="Humidity"
                     formControlName="Humidity"
                     class="form-control"
-                    placeholder="Enter Humidity"
+                    oninput="this.nextElementSibling.value = this.value"
                   />
+                  <output>50</output>
                 </div>
               </div>
 
@@ -97,14 +115,16 @@
                 <div data-mdb-input-init class="form-outline flex-fill mb-0">
                   <label class="form-label">Ph</label>
                   <input
-                    type="number"
-                    min="0"
-                    max="14"
+                    type="range"
+                    min="6"
+                    max="7.5"
                     name="Ph"
+                    step="0.1"
                     formControlName="Ph"
                     class="form-control"
-                    placeholder="Enter Ph"
+                    oninput="this.nextElementSibling.value = this.value"
                   />
+                  <output>6</output>
                 </div>
               </div>
 
@@ -113,12 +133,16 @@
                 <div data-mdb-input-init class="form-outline flex-fill mb-0">
                   <label class="form-label">Rainfall</label>
                   <input
-                    type="number"
+                    type="range"
+                    min="500"
+                    max="1500"
+                    step="0.1"
                     name="Rainfall"
                     formControlName="Rainfall"
                     class="form-control"
-                    placeholder="Enter Rainfall"
+                    oninput="this.nextElementSibling.value = this.value"
                   />
+                  <output>500</output>
                 </div>
               </div>
               <br />
